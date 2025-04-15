@@ -1,0 +1,43 @@
+@import "maxica.css";
+@import "button.css";
+
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+    background-color: #061731;
+    overflow-x: hidden;
+}
+.listen{
+    margin-top: 70px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    margin-left: 28%;
+}
+.userimage {
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    gap: 75px;
+    margin-top: 30px;
+  }
+  
+.userimage img {
+    margin-top: 100px;
+    width: 150px; 
+    height: 150px;
+    border-radius: 8%;
+    cursor: pointer;
+  }
+.username{
+    color: white;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    gap: 135px;
+    text-align: center;
+}
